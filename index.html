@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>INFO</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+
+/* MAIN WRAPPER */
+.WRAPPER {
+  width: 100%;
+  max-width: 1100px;   /* makes it responsive */
+  margin-top: 40px;    /* space at the top */
+}
+
+/* CONTENT */
+#info {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* IMAGE */
+#info img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* LOCATION LINK */
+#location a {
+  display: inline-block;
+  margin-top: 20px;
+  color: red; /* changed to red */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#location a:hover {
+  text-decoration: underline;
+}
+
+/* 📱 MOBILE */
+@media (max-width: 768px) {
+  #location a {
+    font-size: 16px;
+  }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="WRAPPER">
+  <div id="info">
+    
+    <img src="info.jpg" alt="">
+
+    <div id="location">
+      <a href="https://maps.app.goo.gl/anAZCtH4fQ74mUn7A?g_st=iwb" target="_blank">
+        View Location
+      </a>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
